@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -444,145 +444,13 @@ F 3 "" H 1450 3850 60  0001 C CNN
 $EndComp
 NoConn ~ 1550 4100
 NoConn ~ 1550 3500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX1
-U 1 1 5E7B02A9
-P 7850 3150
-F 0 "MX1" H 7883 3373 60  0000 C CNN
-F 1 "MX-NoLED" H 7883 3299 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 7225 3125 60  0001 C CNN
-F 3 "" H 7225 3125 60  0001 C CNN
-	1    7850 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX2
-U 1 1 5E7B0859
-P 7850 3850
-F 0 "MX2" H 7883 4073 60  0000 C CNN
-F 1 "MX-NoLED" H 7883 3999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 7225 3825 60  0001 C CNN
-F 3 "" H 7225 3825 60  0001 C CNN
-	1    7850 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX4
-U 1 1 5E7B0B55
-P 8550 3850
-F 0 "MX4" H 8583 4073 60  0000 C CNN
-F 1 "MX-NoLED" H 8583 3999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 7925 3825 60  0001 C CNN
-F 3 "" H 7925 3825 60  0001 C CNN
-	1    8550 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX3
-U 1 1 5E7B0E66
-P 8550 3150
-F 0 "MX3" H 8583 3373 60  0000 C CNN
-F 1 "MX-NoLED" H 8583 3299 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 7925 3125 60  0001 C CNN
-F 3 "" H 7925 3125 60  0001 C CNN
-	1    8550 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D1
-U 1 1 5E7B3897
-P 7700 3450
-F 0 "D1" H 7700 3550 50  0000 R CNN
-F 1 "D_Small" H 8050 3550 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 7700 3450 50  0001 C CNN
-F 3 "~" V 7700 3450 50  0001 C CNN
-	1    7700 3450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7700 3350 7800 3350
-Wire Wire Line
-	7800 3350 7800 3300
-$Comp
-L Device:D_Small D2
-U 1 1 5E7B58A6
-P 7700 4150
-F 0 "D2" H 7700 4250 50  0000 R CNN
-F 1 "D_Small" H 8050 4250 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 7700 4150 50  0001 C CNN
-F 3 "~" V 7700 4150 50  0001 C CNN
-	1    7700 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D4
-U 1 1 5E7B5B76
-P 8400 4150
-F 0 "D4" H 8400 4250 50  0000 R CNN
-F 1 "D_Small" H 8750 4250 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 8400 4150 50  0001 C CNN
-F 3 "~" V 8400 4150 50  0001 C CNN
-	1    8400 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D3
-U 1 1 5E7B5E2E
-P 8400 3450
-F 0 "D3" H 8400 3550 50  0000 R CNN
-F 1 "D_Small" H 8750 3550 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 8400 3450 50  0001 C CNN
-F 3 "~" V 8400 3450 50  0001 C CNN
-	1    8400 3450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7700 4050 7800 4050
-Wire Wire Line
-	7800 4050 7800 4000
-Wire Wire Line
-	8400 4050 8500 4050
-Wire Wire Line
-	8500 4050 8500 4000
-Wire Wire Line
-	8400 3350 8500 3350
-Wire Wire Line
-	8500 3350 8500 3300
-Wire Wire Line
-	8000 3800 8000 3100
-Wire Wire Line
-	8000 3100 8000 2750
-Connection ~ 8000 3100
-Wire Wire Line
-	8400 3550 7700 3550
-Wire Wire Line
-	7700 3550 7250 3550
-Connection ~ 7700 3550
-Wire Wire Line
-	8400 4250 7700 4250
-Wire Wire Line
-	7700 4250 7250 4250
-Connection ~ 7700 4250
-Wire Wire Line
-	8700 3800 8700 3100
-Wire Wire Line
-	8700 3100 8700 2750
-Connection ~ 8700 3100
-Text GLabel 8000 2750 1    50   Input ~ 0
-COL0
-Text GLabel 8700 2750 1    50   Input ~ 0
+Text GLabel 6100 2800 2    50   Input ~ 0
 COL1
-Text GLabel 7250 4250 0    50   Input ~ 0
-ROW1
-Text GLabel 7250 3550 0    50   Input ~ 0
-ROW0
-Text GLabel 6100 3100 2    50   Input ~ 0
-COL1
-Text GLabel 6100 3200 2    50   Input ~ 0
+Text GLabel 6100 2700 2    50   Input ~ 0
 COL0
-Text GLabel 6100 4600 2    50   Input ~ 0
+Text GLabel 6100 5100 2    50   Input ~ 0
 ROW0
-Text GLabel 6100 3300 2    50   Input ~ 0
+Text GLabel 6100 5200 2    50   Input ~ 0
 ROW1
 Wire Wire Line
 	1550 4300 1600 4300
@@ -685,4 +553,48 @@ Wire Wire Line
 Connection ~ 1800 3400
 Wire Wire Line
 	2150 3400 2300 3400
+$Sheet
+S 8600 2450 1550 600 
+U 5E80119E
+F0 "KeyboardSwitchMatrix" 50
+F1 "keyboard-switch-matrix.sch" 50
+$EndSheet
+Text GLabel 6100 2900 2    50   Input ~ 0
+COL2
+Text GLabel 6100 3000 2    50   Input ~ 0
+COL3
+Text GLabel 6100 3100 2    50   Input ~ 0
+COL4
+Text GLabel 6100 3200 2    50   Input ~ 0
+COL5
+Text GLabel 6100 3300 2    50   Input ~ 0
+COL6
+Text GLabel 6100 3400 2    50   Input ~ 0
+COL7
+Text GLabel 6100 3900 2    50   Input ~ 0
+COL8
+Text GLabel 6100 4000 2    50   Input ~ 0
+COL9
+Text GLabel 6100 4100 2    50   Input ~ 0
+COL10
+Text GLabel 6100 4200 2    50   Input ~ 0
+COL11
+Text GLabel 6100 4300 2    50   Input ~ 0
+COL12
+Text GLabel 6100 4400 2    50   Input ~ 0
+COL13
+Text GLabel 6100 4500 2    50   Input ~ 0
+COL14
+Text GLabel 6100 4600 2    50   Input ~ 0
+COL15
+Text GLabel 6100 5300 2    50   Input ~ 0
+ROW2
+Text GLabel 6100 5400 2    50   Input ~ 0
+ROW3
+Text GLabel 6100 5500 2    50   Input ~ 0
+ROW4
+NoConn ~ 6100 5600
+NoConn ~ 6100 4900
+NoConn ~ 6100 3600
+NoConn ~ 6100 3700
 $EndSCHEMATC
